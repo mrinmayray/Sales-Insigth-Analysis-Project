@@ -32,8 +32,10 @@ A proposed framework for consistent and accurate sales reporting.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 - Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
 - Step 4 : Step 4: Identify and address any null values or errors in the data during the cleaning process..
-- Step 5 : In the currency section of the sales transactions, it was observed that the values INR and USD were duplicated, appearing twice for unknown reasons. This issue was identified and corrected. 
+- Step 5 : In the currency section of the sales transactions, it was observed that the values INR and USD were duplicated, appearing twice for unknown reasons. This issue was identified and corrected.
+-  
 ![Image](https://github.com/user-attachments/assets/eea5be02-16c8-4b72-bde9-6e28c09d22f2)
+
 - Step 6 : Following these steps, the dashboard creation process was initiated in the Report View of Power BI.
 - Step 7 : Given the diversity of data encompassing various products, markets, and customers, a new visualization was created to effectively represent these dimensions. Using the Stacked Bar Chart from the Visualizations Pane in the Report View, the chart was designed to display a comparative analysis of these key attributes. This approach provided a clear and intuitive breakdown, facilitating better insights into the relationships and performance across products, markets, and customer segments.
 - Step 8 : Visual filters, also known as Slicers, were added for the fields Year and Month. These filters enable upper management to easily view and analyze data on both a monthly and year-to-year basis, providing greater flexibility in exploring trends and making data-driven decisions.
@@ -78,4 +80,6 @@ Following inferences can be drawn from the dashboard;
 
   The top product listed is blank, indicating that the product name was missing in the data we received. Given that more than 50% of the data is incomplete, we cannot accurately analyze or process it. We will inform the data management team or the IT team responsible for the data storage to ensure that future datasets do not contain blank product names. Additionally, if they are able to retrieve and update the missing product information in the database, the data can be corrected.
 
- 
+# Download Links
+
+PDF Sales Analysis - [Download](https://github.com/user-attachments/files/18470161/Sales.Analysis.pdf)
