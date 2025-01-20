@@ -1,5 +1,5 @@
 
-# Sales Insigth Data Analysis Project
+# Sales Insights Data Analysis Project
 
 ## Problem Statement
 
